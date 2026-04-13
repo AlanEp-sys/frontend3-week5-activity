@@ -1,4 +1,4 @@
-# 🎮 Proyecto Gamepedia - Frontend II
+# 🎮 Proyecto TechStore - Frontend III
 
 Bienvenido a la construcción de tu primera Single Page Application (SPA) conectada a una base de datos real de videojuegos, utilizando React, React Router y la API de RAWG.
 
@@ -131,14 +131,14 @@ Este proyecto utiliza Docker para garantizar que la aplicación se ejecute de fo
 Este comando crea una imagen optimizada que contiene el servidor Nginx y los archivos estáticos de la aplicación. Sustituye `<tu-usuario>` por tu nombre de usuario en Docker Hub.
 
 ```bash
-docker build -t <tu-usuario>/proyecto-frontend-ii:latest .
+docker build -t <tu-usuario>/proyecto-frontend-iii:latest .
 ```
 
 ### 2. Ejecutar el Contenedor
 Inicia la aplicación mapeando el puerto **8080** de tu computadora al puerto **80** interno del contenedor (donde escucha Nginx).
 
 ```bash
-docker run -d -p 8080:80 --name frontend-app <tu-usuario>/proyecto-frontend-ii:latest
+docker run -d -p 8080:80 --name frontend-app <tu-usuario>/proyecto-frontend-iii:latest
 ```
 * **Verificación:** Abre tu navegador en [http://localhost:8080](http://localhost:8080).
 
