@@ -8,7 +8,7 @@ Abre tu terminal y ejecuta los siguientes comandos para inicializar el proyecto 
 
 ```bash
 # 1. Crear el proyecto (escribe 'y' si te pide confirmación)
-git clone [https://github.com/JosephRangel/frontend3-week5-activity/](https://github.com/JosephRangel/frontend3-week5-activity.git)
+git clone https://github.com/JosephRangel/frontend3-week5-activity.git
 
 # 2. Entrar a la carpeta recién creada
 cd frontend3-week5-activity
