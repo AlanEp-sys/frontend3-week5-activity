@@ -1,10 +1,7 @@
-/* =========================================
-   ESTILOS GLOBALES - TECHSTORE
-   ========================================= */
 body {
   margin: 0;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  background-color: #f8fafc; /* Un gris muy claro, estilo e-commerce moderno */
+  background-color: #f8fafc;
   color: #1e293b;
 }
 
@@ -39,15 +36,12 @@ body {
   color: #ef4444;
 }
 
-/* =========================================
-   NAVBAR
-   ========================================= */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background-color: #0f172a; /* Azul muy oscuro, casi negro */
+  background-color: #0f172a;
   color: white;
   position: sticky;
   top: 0;
@@ -58,7 +52,7 @@ body {
 .nav-logo {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #38bdf8; /* Azul claro para el acento */
+  color: #38bdf8;
   text-decoration: none;
   letter-spacing: 1px;
 }
