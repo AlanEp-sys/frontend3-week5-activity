@@ -2,13 +2,10 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext'; // Solo importamos el Custom Hook
 
 const Cart = () => {
-  // 1. Extraemos el carrito y la función usando el Hook (¡sin parámetros!)
   const { cart, clearCart } = useCart();
 
-  // 2. LÓGICA DE NEGOCIO: Calculamos el total usando .reduce()
   const total = cart.reduce((acc, item) => acc + item.price, 0);
 
-  // 3. RENDERIZADO CONDICIONAL: Si el carrito está vacío
   if (cart.length === 0) {
     return (
       <div className="container empty-cart">
