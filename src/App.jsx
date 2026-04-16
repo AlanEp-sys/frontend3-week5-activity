@@ -14,7 +14,8 @@ function App() {
   });
 
   useEffect(() => {
-    document.body.style.transition = 'background-color 0.2s ease, color 0.2s ease';
+    document.body.style.transition =
+      'background-color 0.2s ease, color 0.2s ease';
     document.body.classList.toggle('dark-mode', isDarkMode);
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
   }, [isDarkMode]);
