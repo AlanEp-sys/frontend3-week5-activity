@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/AlanEp-sys/frontend3-week5-activity/compare/v1.0.0...v1.1.0) (2026-04-16)
+
+
+### Features
+
+* cambios del formato ([be71419](https://github.com/AlanEp-sys/frontend3-week5-activity/commit/be714197ddc8def669b028da4c883b489edab9db))
+* reformat prettier styles ([4e1bc46](https://github.com/AlanEp-sys/frontend3-week5-activity/commit/4e1bc4644c5f596150c6da18afef938b47a3766b))
+
 # 1.0.0 (2026-04-16)
 
 
