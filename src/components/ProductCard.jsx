@@ -5,11 +5,13 @@ const ProductCard = ({ product }) => {
   return (
     // Template Literals para inyectar el ID real en la URL (ej. /product/5)
     <Link to={`/product/${product.id}`} className="product-card">
-      <img
-        src={product.images[0]}
-        alt={product.title}
-        className="product-image"
-      />
+      <div className="product-image-wrapper">
+        <img
+          src={product.images[0]}
+          alt={product.title}
+          className="product-image"
+        />
+      </div>
       <div className="product-info">
         <h3 className="product-title">{product.title}</h3>
         {/* Inyectamos el precio formateado con el símbolo de dólares */}

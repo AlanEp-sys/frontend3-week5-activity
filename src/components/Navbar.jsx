@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ isDarkMode, onToggleDarkMode }) => {
   return (
     <nav className="navbar">
       <Link to="/" className="nav-logo">
@@ -16,6 +16,9 @@ const Navbar = () => {
         <Link to="/cart" className="nav-link">
           Mi Carrito
         </Link>
+        <button className="theme-toggle-btn" onClick={onToggleDarkMode}>
+          {isDarkMode ? 'Modo claro' : 'Modo oscuro'}
+        </button>
       </div>
     </nav>
   );
